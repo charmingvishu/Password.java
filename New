@@ -1,0 +1,22 @@
+class Password{
+	public static void main(String []a){
+	// This a program using most of the method of String method.
+	
+	String pas1="VISHAKHA";
+	String pas2="PARKHE";
+	String pas=pas1+pas2;
+	System.out.println(pas);
+	System.out.println(pas.length());
+	int start=pas.indexOf("VIS");
+	int stop =pas.indexOf("KHA");
+	System.out.println(start);
+	System.out.println(stop);
+	if(start != -1 && stop != -1 && (start-stop) % 3  == 0){
+			String protein=dna.substring(start,stop+3);
+			System.out.println("Password are found..."+Password);
+		}
+		else{
+			System.out.println("Password Here ...");
+		}
+	}
+}
